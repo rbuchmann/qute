@@ -1,7 +1,9 @@
 (defproject qute "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.946"]
-                 [reagent "0.7.0"]]
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [org.clojure/clojurescript "1.11.60"]
+                 [reagent "1.1.1"]
+                 [cljsjs/react "17.0.2-0"]
+                 [cljsjs/react-dom "17.0.2-0"]]
 
   :min-lein-version "2.5.3"
 

@@ -2,6 +2,7 @@
   (:require
    [cljs.pprint :refer [pprint]]
    [reagent.core :as reagent]
+   [reagent.dom :refer [render]]
    [qute.simulation :as sim]
    [qute.visualization :as vis]))
 
@@ -73,7 +74,7 @@
     ))
 
 (defn reload []
-  (reagent/render [page app-state]
+  (render [page app-state]
                   (.getElementById js/document "app")))
 
 (defn ^:export main []
